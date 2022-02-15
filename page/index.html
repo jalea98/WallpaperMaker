@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js" defer></script>
+  <title>Wallpaper Maker</title>
+</head>
+
+<body>
+  <div class="wraper">
+    <h1>Wallpaper Maker</h1>
+    <div class="file">
+      <button onclick="getimg()" disabled>Open image</button>
+      <p class="filefield"></p>
+    </div>
+    <div class="buttons">
+      <button onclick="rstPosition()" disabled>Reset Position</button>
+      <button onclick="rstScale()" disabled>Reset Scale</button>
+      <button onclick="rstRotation()" disabled>Reset Rotaion</button>
+      <button onclick="save()" disabled>Save</button>
+    </div>
+    <div class="canwrap">
+      <canvas id="canvas" class="hidden"></canvas>
+      <div class="loading">
+        <img src="loading.png">
+        Loading Screen data
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+    "name": "wallpapermaker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "keywords": [
+        "wallpaper",
+        "wallpaperMaker"
+    ],
+    "author": "jalea98",
+    "license": "GPL-3.0-only",
+    "devDependencies": {
+        "electron": "^17.0.0",
+        "electron-packager": "^15.4.0"
+    },
+    "dependencies": {
+        "systeminformation": "^5.11.1"
+    }
+}
